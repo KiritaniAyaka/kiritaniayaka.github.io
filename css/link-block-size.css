@@ -1,0 +1,58 @@
+#article-container .flink .flink-list>.flink-list-item {
+    width: calc(100% - 45px);
+}
+
+@media screen and (max-width: 1024px) {
+    #article-container .flink .flink-list>.flink-list-item {
+        width: calc(100% - 45px) !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #article-container .flink .flink-list>.flink-list-item {
+        width: calc(100% - 45px) !important;
+    }
+}
+
+#article-container .flink .flink-list>.flink-list-item:hover img {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+}
+
+#article-container .flink .flink-list>.flink-list-item {
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+}
+
+#article-container .flink .flink-list>.flink-list-item:hover a .flink-item-name,
+#article-container .flink .flink-list>.flink-list-item:hover a .flink-item-desc {
+    animation: link-title 0.4s ease-out 0s 1 forwards;
+}
+
+#article-container .flink .flink-list>.flink-list-item:hover {
+    animation: link-block 0.5s ease-out 0s 1 forwards;
+}
+
+@keyframes link-title {
+    from {
+        color: black;
+    }
+    to {
+        color: white;
+    }
+}
+
+@keyframes link-block {
+    from {
+        background: white;
+    }
+    to {
+        background: var(--btn-bg);
+    }
+}
