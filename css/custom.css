@@ -93,3 +93,7 @@ blockquote>p {
     font-weight: normal;
     font-style: normal;
 }
+
+#content-posts .recent-post-item {
+    height: 17rem;
+}

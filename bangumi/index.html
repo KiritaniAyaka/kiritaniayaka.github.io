@@ -1,0 +1,785 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>追番 | Ayakaの部屋</title><meta name="author" content="Kiritani Ayaka"><meta name="copyright" content="Kiritani Ayaka"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content=".bangumi-list {   display: flex;   flex-direction: column;   align-items: center;   justify-content: flex-start; } .bangumi-list .bangumi-item {   display: flex;   max-width: 970px;   align-items: str">
+<meta property="og:type" content="website">
+<meta property="og:title" content="追番">
+<meta property="og:url" content="https://ayk.moe/bangumi/index.html">
+<meta property="og:site_name" content="Ayakaの部屋">
+<meta property="og:description" content=".bangumi-list {   display: flex;   flex-direction: column;   align-items: center;   justify-content: flex-start; } .bangumi-list .bangumi-item {   display: flex;   max-width: 970px;   align-items: str">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://ayk.moe/img/avatar.jpg">
+<meta property="article:author" content="Kiritani Ayaka">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ayk.moe/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://ayk.moe/bangumi/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '追番',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-04-05 23:04:22'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600" rel="stylesheet"><link rel="stylesheet" href="/css/custom.css"><script async src="https://www.googletagmanager.com/gtag/js?id=G-D6ZNEPJPJG"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-D6ZNEPJPJG'); </script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-regular fa-gamepad"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumi/"><i class="fa-fw fa-solid fa-tv"></i><span> 追番</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('/img/1.jpeg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Ayakaの部屋</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-regular fa-gamepad"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumi/"><i class="fa-fw fa-solid fa-tv"></i><span> 追番</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">追番</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><style>.bangumi-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bangumi-list .bangumi-item {
+  display: flex;
+  max-width: 970px;
+  align-items: stretch;
+  margin: 0.75rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.6rem rgba(16, 16, 16, 0.2);
+  transition: 0.3s;
+}
+.bangumi-list .bangumi-item:hover {
+  box-shadow: 0 0 1rem rgba(16, 16, 16, 0.3);
+  transform: translateY(-0.2rem);
+}
+.bangumi-list .bangumi-item img {
+  width: 7rem;
+  height: 100%;
+}
+.bangumi-list .bangumi-item .detail {
+  flex: 1;
+  padding: 0 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.bangumi-list .bangumi-item .title {
+  font-weight: normal;
+  margin: 0.4rem 0;
+  user-select: none;
+}
+.bangumi-list .bangumi-item .title > span {
+  display: inline-block;
+}
+.bangumi-list .bangumi-item .title > span.cn {
+  transition: 0.3s;
+  font-size: 1rem;
+}
+.bangumi-list .bangumi-item .title > span.cn:hover {
+  color: #ffabd0;
+  cursor: pointer;
+}
+.bangumi-list .bangumi-item .title > span.origin {
+  font-size: 0.9rem;
+  line-height: 0.95rem;
+  color: #505050;
+}
+.bangumi-list .bangumi-item .title > span.tag {
+  background-color: #ffabd0;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.15rem;
+  border-radius: 0.3rem;
+  line-height: 0.9rem;
+}
+@media (min-width: 768px) {
+  .bangumi-list .bangumi-item .title > span.cn {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .bangumi-list .bangumi-item .title > span.cn {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 576px) {
+  .bangumi-list .bangumi-item .title > span.cn {
+    font-size: 1rem;
+  }
+}
+.bangumi-list .bangumi-item .progress {
+  display: flex;
+  height: 1.2rem;
+  overflow: hidden;
+  font-size: 0.7rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  user-select: none;
+  margin: 0.5rem 0;
+}
+.bangumi-list .bangumi-item .progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #ffabd0;
+  transition: width 0.6s ease;
+}
+@media (min-width: 992px) {
+  .bangumi-list .bangumi-item .progress-bar {
+    min-width: 12%;
+  }
+}
+@media (max-width: 992px) {
+  .bangumi-list .bangumi-item .progress-bar {
+    min-width: 16%;
+  }
+}
+@media (max-width: 768px) {
+  .bangumi-list .bangumi-item .progress-bar {
+    min-width: 22%;
+  }
+}
+@media (max-width: 576px) {
+  .bangumi-list .bangumi-item .progress-bar {
+    min-width: 30%;
+  }
+}
+.bangumi-list .bangumi-item .detail p.summary {
+  margin: 0;
+  font-size: 0.9rem;
+  width: 100%;
+  line-height: 1.2rem;
+  color: #303030;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+</style><div class="bangumi-list"><div class="bangumi-item" id="bangumi-item-1">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/10/19/260680_Sx2HP.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">青春笨蛋少年不做怀梦美少女的梦</span>
+			<span class="origin">青春ブタ野郎はゆめみる少女の夢を見ない</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			居住在天空与海洋辉映的城镇“藤泽”的梓川咲太，就读高中二年级。 
+他与既是学姐又是恋人的樱岛麻衣所度过的令人雀跃的日常，随着初恋对象牧之原翔子的出现而改变。 
+不知为何，存在着“中学生”和“大人”两个翔子。 
+出于无奈开始和翔子住在一起的咲太，受到“大人翔子”的捉弄，和麻衣的关系也变得尴尬。
+此时，“中学生翔子”身患重病的事实被发现，咲太的伤痕开始隐隐作痛——。
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">1 / 1</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-2">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/b9/45/240038_b5j7g.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">青春笨蛋少年不做兔女郎学姐的梦</span>
+			<span class="origin">青春ブタ野郎はバニーガール先輩の夢を見ない</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			思春期症候群——这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。
+例如，在梓川咲太面前出现的野生兔女郎。
+她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周围的人眼里看不出来。
+咲太决定解开这一谜题。在于麻衣一起度过的时间里，咲太知道了她秘密的想法……
+女主人公们一个接一个地出现在咲太的周围，她们都有着“青春期症候群”。在天空和大海都很闪耀的小镇上，开始了令人激动的故事。
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">13 / 13</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-3">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/91/41/230110_5tFWD.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">春原庄的管理人</span>
+			<span class="origin">すのはら荘の管理人さん</span>
+			<span class="tag">在看</span>
+		</div>
+		<p class="summary">
+			椎名亚树由于外表的缘故而总不被人当成男人看待，他为了改变自己而在升入初中时前往东京，住进了春原庄。在那里等着亚树的，是受到性格天然又爱恶作剧的春原庄管理员·春原彩花从身心两方面疼爱有加的每一天。不止如此，其他的同居人也全都是年长的女生……。治愈与心跳满载，不由得想要向管理员姐姐撒娇的年龄差（御姐正太）恋爱喜剧决定版！
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
+				aria-valuemin="0" aria-valuemax="100">0 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-4">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/00/e8/269235_Dg6gZ.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">天气之子</span>
+			<span class="origin">天気の子</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			「想要试着去往那道光芒当中」
+
+高中一年级的夏天。从离岛离家出走，来到东京的帆高。
+他的生活立刻变得困窘，在度过孤独的每一天之后终于找到的工作，
+是为古怪的超自然杂志撰稿。
+
+如同预示着他接下来的命运一般，连日不断降下雨水。
+此时，在人潮熙熙攘攘的都市一角，帆高遇到了一位少女。
+
+由于某些缘故，和弟弟两个人一起坚强生活的少女·阳菜。
+她拥有不可思议的能力。
+
+「呐，现在开始就要放晴了哦」
+
+雨水逐渐停止，街道笼罩在美丽的光芒中。
+那是，仅仅在心中祈祷，就能让天空放晴的力量——
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">1 / 1</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-5">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/20/15/160209_w42EP.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">你的名字。</span>
+			<span class="origin">君の名は。</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			　　在每千年回归一次的彗星造访过一个月之后的日本。
+　　某个深山的乡下小镇，女高中生三叶每天都过着忧郁的生活。
+　　而她烦恼的不光有担任镇长的父亲所举行的选举运动，还有家传神社的古老习俗。
+　　在这个小小的城镇，周围都只是些爱瞎操心的老人。为此三叶对于大都市充满了憧憬。
+　　“下辈子就让我成为东京的帅哥吧……！！！”
+　　然而某一天，自己做了一个变成男孩子的梦。
+　　这儿有着陌生的房间、陌生的朋友。而眼前出现的则是东京的街道。
+　　三叶虽然感到困惑，但是能够来到朝思暮想的都市生活，让她觉得神清气爽。
+　　“不可思议的梦……”
+　　另一方面在东京生活的男高中生·泷也做了个奇怪的梦。
+　　他在一个从未去过的深山小镇中，变成了女高中生……
+　　那么他们体验的梦境到底有什么秘密呢？
+　　原本不会相遇的两人由此相逢。
+　　少女和少年奇迹的故事，开始了。
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">1 / 1</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-6">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/a8/41/207573_95N29.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">月色真美</span>
+			<span class="origin">月がきれい</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			茜与小太郎。
+初三时第一次被分到同班，相识的两人。
+同班同学、社团伙伴、教师、父母……与周围的关联，自己的成长。
+在那个一边被变化与不安追着，一边慌慌张张地向前飞奔的季节之中，稚嫩而又令人眩目的青春期之恋。
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-7">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/b2/b8/23119_9qxMO.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">命运石之门 负荷领域的既视感</span>
+			<span class="origin">STEINS;GATE 負荷領域のデジャヴ</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			       自称为“狂妄的疯狂科学家”，至今仍是中二病的大学生‧冈部伦太郎。他与他的同伴偶然发明了能送往过去的邮件D-MAIL。由此所引起的，是即使多次过去改变（世界线移动）也会到访的、同伴死去的未来……在绝望的冈部面前出现的曙光，是不论谁也不会死亡的未来，称为“命运石之门”的世界线。跨越时间轴解开各种谜团，冈部终于到达了“命运石之门”。可是，跨越了众多世界线的冈部的头脑，开始出现了庞大的”负荷”……
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">1 / 1</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-8">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/a9/79/10380_YwP4R.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">命运石之门</span>
+			<span class="origin">STEINS;GATE</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			       故事发生在「CHAOS;HEAD」的“涩谷崩坏”事件一年半之后的世界，而舞台则从涩谷转移到了秋叶原。主角冈部伦太郎是一位深度中二病的大学生，时常幻想自己身肩重任，并自称“狂气的疯狂科学家・凤凰院凶真”，不过说到底其作为不过就是在名为“未来道具研究所”中与两个伙伴开发着奇奇怪怪又不切实际的东西。然而，这样的他们却在偶然间发明出可以把电子讯息传送过去的时间机器。在他们对未来及过去知道得越多的同时，却不知道危难正渐渐临到自己身上……
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">25 / 25</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-9">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/d0/59/213076_J5y9R.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">如果有妹妹就好了。</span>
+			<span class="origin">妹さえいればいい。</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			「如果有妹妹的话就能拥有最棒的人生了，为什么我却没有妹妹呢……？」
+专写妹系作品的妹控小说家羽岛伊月，身边聚集着各式各样不同个性的人物。有天才变态作家可儿那由多、女大学生白川京、插画家屁桃，以及鬼畜税务师大野艾希莉等等。
+伊月等人虽然各自有着不同的烦恼，但还是一边写着小说，玩着电玩，喝着酒，申报所得税，过着喧闹的日常生活。
+在一旁温暖守护着伊月等人的，是伊月的继弟千寻。然而，千寻竟藏着一个天大的秘密……
+欢乐又锥心，由天才、凡人与怪咖所展开的多重路线青春恋爱喜剧，现在开演！
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-10">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/21/a6/257369_32HM0.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">我们真的学不来</span>
+			<span class="origin">ぼくたちは勉強ができない</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			刻苦学习的高中3年生·唯我成幸，为了获得免缴大学学费的“特别VIP推荐”资格，而要去担任为备考而苦战的同级生们的教育指导员。教导的对象是“文学之森的睡美人”古桥文乃和“机关精巧的拇指姑娘”绪方理珠这两位学园顶尖的天才美少女！原本以为她们的学习能力完美无缺，没想到对于不擅长的学科却完全无能……！？成幸一边被充满个性的“学不来女孩”们玩弄于股掌之间，一边为了让她们努力通过大学考试！无论学习还是恋爱都“学不来”的天才们的恋爱喜剧，就此开幕！！
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">13 / 13</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-11">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/87/01/214272_vlcWz.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">欢迎来到实力至上主义教室</span>
+			<span class="origin">ようこそ実力至上主義の教室へ</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			这个社会是否平等呢。真正的“实力”是什么——。
+东京都高度育成高等学校。那是宣扬彻底的实力至上主义，以升学率·就业率100%而引以为豪的升学学校。升入那里，被分配到1年D班的绫小路清隆，却发现学校与实力至上主义的招牌相反，学生每个月会得到相当于10万日元、与现金同等价值的分数，在授课和生活态度方面也贯彻放任主义。在梦幻般的高中生活当中，不断地挥金如土、过着自甘堕落日子的同班同学们。但，不久他就得知了学校系统的真面目，并被打入绝望的深渊……！
+来自吊车尾聚集的D班的少年少女们所发现的，是世界的矛盾，还是正当的实力社会？
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-12">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/58/d3/219658_Reey1.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">龙王的工作！</span>
+			<span class="origin">りゅうおうのおしごと！</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			玄关门一打开，眼前冒出了一位小学女生——
+“我依照约定来了，请收我为弟子！”
+年仅十六岁便拥有将棋界最高头衔“龙王”的九头龙八一家里，出现一位名叫雏鹤爱的小学三年级生，九岁。
+“什么？……弟子？你在说什么？”
+“……您不记得了吗？”
+八一对自己答应过的事情完全没有印象，却展开了与小学女生同居的生活。受到爱直率的热情影响，八一也逐渐取回险些丧失的热忱——
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-13">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/e4/a6/242_BmDGk.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">穿越时空的少女</span>
+			<span class="origin">時をかける少女</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			　　17岁少女绀野真琴是一个活泼跳脱的少女。在一次普通值日工作中，真琴不小心摔倒了，自此她发现自己拥有了穿越时空的能力。她兴奋不已，掌握了穿越时空的方法后，她经常用这个方法去解决生活中许多令她困扰十分的事。
+　　喜欢棒球的真琴与同班的两名男生千昭与功介有着共同爱好。一天，与她本是好朋友的千昭突然向她表达爱意，手足无措了她再次穿越时空希望可以躲避这件事的发生。但没想到，千昭会跟同学友梨在一起了，而友梨也是一直喜欢千昭的。此时，暗恋功介的果穗误以为真琴是功介的女友。
+　　为了帮忙解决朋友的问题，真琴不断以同样的方法回到过去。她突然发现自己手臂上的数字原来是穿越时空的次数，次数变得越来越少，与此同时她也发现了千昭的秘密…… 
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">1 / 1</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-14">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/1f/3f/247417_O2YP9.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">笨拙之极的上野</span>
+			<span class="origin">上野さんは不器用</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			这里是某中学的理科室————。
+科学部部长上野，是恋慕着部内学弟田中的恋爱少女。
+她使用天才过头的异想天开发明品，采取各种手段试图吸引田中的注意。
+一年级的部员山下也以沉着冷静的辅助来支援上野！
+上野的恋情究竟能否成功！？
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-15">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/9c/1e/45842_ZF94F.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">变态王子与不笑猫。</span>
+			<span class="origin">変態王子と笑わない猫。</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			　　整天脑中都只想着女孩子的横寺阳人，被田径社社长钢铁之王指定为下任社长。阳人加入社团，纯粹是为了偷看游泳社的泳装，因此认为自己不适合担任社长，却又说不出真心话，一直没办法拒绝。 某天，小学以来的死党朋太告诉阳人，自从向不笑猫像许愿后，自己满脑子的桃色烦恼便消失无踪。阳人向他仔细询问后得知，只要把供品献给不笑猫像，就能够把自己不需要的东西，转送给需要的人。
+　　阳人在半信半疑下，抱着死马当活马医的心态，前往猫像所在的一本杉丘陵，打算把自己的“表面工夫”丢掉。到达目的地时，碰见了名为筒隐月子的少女。两人一聊才发现，原来月子也是要向猫像许愿，把自己的“真心话”送出去。两人一同许愿后，阳人用来绑供品的皮带和月子供奉的肉包突然消失不见，同时阳人的表面工夫与月子的真心话也就此消失。
+　　阳人失去表面工夫后，常不自觉的把自己内心的想法说出来，使得全校师生都认为他是变态而避着他，还被取了变态王子这个绰号。失去真心话的月子，则再也无法表现任何情绪。阳人和月子联手，为了取回彼此失去的能力而四处奔走。这部爽朗变态×冷淡少女的青春困惑爱情喜剧就这样正式拉开帷幕。
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-16">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/c6/22/85557_jmSe9.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">姐姐来了</span>
+			<span class="origin">お姉ちゃんが来た</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			       某日，由于父亲再婚而多了“姐姐”的水原朋也（13岁）面前出现了超级弟控水原一香（17岁）！
+　　作为弟控的水原一香身边还有形形色色的同学们，最高最强的抖S琉璃，爆乳宅女麻里奈！于是水原朋也一边觉得姐姐的爱好沉重一边与“姐姐们”展开了丰富多彩的生活喜剧！
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">13 / 13</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-17">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/73/8c/228254_X7Y56.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">约会大作战 第三季</span>
+			<span class="origin">デート・ア・ライブⅢ</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			人類は『空間震』と呼ばれる新たな災害に見舞われていた。
+空間を揺るがし、あらゆるものを破壊し尽くすその災厄は、
+精霊と呼ばれる存在が臨界から顕現することにより発生するものだった。
+空間震を止め、災厄を人類から退けるために必要とされる措置は、
+武力をもって精霊を殲滅する、もしくは——
+
+『デートしてデレさせる』！
+
+精霊をデレさせ、更に『キス』をすることでその力を封印できる——
+そんな能力を持っている高校生・五河士道。
+人類の平和のため、なにより精霊たちを救うため——
+士道は彼女たちとの『デート』に奔走する。
+士道に心を開いた精霊・十香、四糸乃、琴里、耶具矢、夕弦、美九。
+精霊を殲滅するべく動く＜ＡＳＴ＞。精霊を利用せんとする＜ＤＥＭ＞。
+精霊との対話を試みる＜ラタトスク＞。
+そして、デレさせるべき新たな精霊——
+すべてを巻き込み、新たな戦争＜デート＞が始まる——
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-18">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/65/55/76325_8yJ4Y.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">约会大作战 第二季</span>
+			<span class="origin">デート・ア・ライブII</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			空間震を伴い、世界を滅ぼす力を持った精霊。そして、その尋常ならざる精霊の力を封印する能力を持った五河士道。そんな士道の、平穏で健やかな休日の昼下がりを破る、突然の爆発音。それは、再び幕があける、精霊たちとの戦争&lt;デート&gt;の前奏曲&lt;プレリュード&gt;で…。人気ライトノベルのアニメ化第二期。
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">10 / 10</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-19">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/99/08/49131_CIPjC.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">约会大作战</span>
+			<span class="origin">デート・ア・ライブ</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			故事是讲述一名普通的高中二年级生五河士道，突然在某一天遇上了一场大爆炸，而在这场大爆炸之中竟然出现一名身穿盔甲手持大剑的神秘美少女。原来这名少女的真正身份是“精灵”，是会给世界带来毁灭性灾难的存在，她的再次出现，将会给地球带来毁灭性的未来！然而主人公士道却有方法阻止世界毁灭，这个唯一能够阻止世界毁灭的方法就是——要与她约会！
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-20">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/fd/cd/256114_mvRVq.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">五等分的新娘</span>
+			<span class="origin">五等分の花嫁</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			一直过着贫困生活的高中二年级学生·上杉风太郎，找到了一份条件非常好的家庭教师兼职。然而，要教导的学生居然是同级生！而且还是五胞胎！！虽然都是美少女，但同时也是“将要留级”、“讨厌学习”的问题学生们！最开始的任务就是要取得这些女孩们的信任……！？每天都热闹喧嚣！
+中野家的五姐妹所带来的可爱度500%的五个不一样的恋爱喜剧，就此开幕！！
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-21">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/70/6d/132754_SwRnc.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">骇客娃娃</span>
+			<span class="origin">ハッカドール THE・あにめ～しょん</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			在情报过度发达的现代社会，人们沉溺在铺天盖地的信息海洋中为其所缚，变得不再自由，为了解决这一问题，一位年轻勇敢的科学家站了出来，试图挑战这种压抑状态……
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">13 / 13</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-22">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/a0/45/43099_wKF2w.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">魔角侦探之大三角计划</span>
+			<span class="origin">魔角侦探之大三角计划</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			在魔角侦探第一季的故事里头,光明之眼召唤洪水的计划失败了,其中两个重要干部MR.K和肉抖抖下落不明......金抢鱼镇恢复平静,然而,罪恶从来都不会停下他的脚步......一个前所未有的惊天阴谋&quot;大三角计划&quot;在暗的里悄悄进行,而齐乐天的真实身份也浮出水面!
+重重疑云接踵而至，不可思议的人物与事件纷纷登场，令人目不暇接:神秘的少女芽月、寻找感情的霍星、怪人假面K、迷糊天才海医生 ……齐乐天和霍星到底从哪里来?小宠物凤凰鸡与光明之眼组织有着怎样千丝万缕的联系?如何开启浑沌之轮?大三角仪式最后会以什么样的结局收场？ 机智勇敢的“魔角少年侦探帮”将继续与黑暗组织“光明之眼” 展开一场场惊心动魄的较量!
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">52 / 52</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-23">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/1d/08/114685_Ege3l.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">可塑性记忆</span>
+			<span class="origin">プラスティック・メモリーズ</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			故事发生在一个比现在的科学要进步的世界。18岁的水柿司高考失败，多亏父母找关系得以进入世界大企业SAI社工作。SAI社是制造管理拥有感情的人形智能机器人（通称：Giftia）的企业，司在其中被安排到终端服务部门工作。这个部门其实就是回收即将到期的Giftia，是所谓的“窗边部门（不被重视的部门）”。于是司和打杂的Giftia少女“艾拉”组成搭档，一起开始了工作……
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">13 / 13</div>
+		</div>
+	</div>
+</div><div class="bangumi-item" id="bangumi-item-24">
+	<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://lain.bgm.tv/pic/cover/l/87/bf/172498_wfm40.jpg"
+		
+	>
+	<div class="detail">
+		<div class="title">
+			<span class="cn">情色漫画老师</span>
+			<span class="origin">エロマンガ先生</span>
+			<span class="tag">看过</span>
+		</div>
+		<p class="summary">
+			高中生兼小说作家的“和泉正宗”（笔名：和泉征宗）有个家里蹲的妹妹“和泉纱雾”。一年前才成为家人的她，却完全不走出居室，并也用力踩踏地板，要我帮她准备食物。为了这段称不上“兄妹”的关系，正宗得想个办法让她自己走出居室才行，因为两人已是目前仅存能相依为命的“家人”……至于正宗的搭挡插画家“情色漫画老师”，是个能够画出非常棒煽情图的可靠伙伴。虽然双方并没见过面，但我一直很感谢他！只是在某一天，正宗突然发现到一个冲击事实，那就是“情色漫画老师”其实就是纱雾！？
+		</p>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100"
+				aria-valuemin="0" aria-valuemax="100">12 / 12</div>
+		</div>
+	</div>
+</div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Kiritani Ayaka</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">博客搬到 GitHubPages + Hexo.Butterfly 辣 q(≧▽≦q)</div></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%88%86%E4%BA%AB/"><span class="card-category-list-name">分享</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BC%96%E7%A8%8B/"><span class="card-category-list-name">编程</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BF%BB%E8%AF%91/"><span class="card-category-list-name">翻译</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9F%B3%E4%B9%90/"><span class="card-category-list-name">音乐</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">7.1k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-04-05T15:04:22.471Z"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/1.jpeg')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Kiritani Ayaka</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
