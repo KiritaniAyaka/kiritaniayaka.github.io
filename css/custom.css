@@ -89,7 +89,7 @@ blockquote>p {
 
 @font-face {
     font-family: 'JetBrains Mono';
-    src: url('https://cdn.jsdelivr.net/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.ttf') format('truetype');
+    src: url('https://jsd.ayk.moe/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.woff2') format('woff2'), url('https://jsd.ayk.moe/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
