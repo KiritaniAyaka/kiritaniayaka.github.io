@@ -1,99 +1,201 @@
 /* link blocks */
 
-#article-container .flink .flink-list:nth-of-type(1)>.flink-list-item {
-    width: calc(100% - 45px);
+#article-container .flink .flink-list:nth-of-type(1) > .flink-list-item {
+	width: calc(100% - 45px);
 }
 
 @media screen and (max-width: 1024px) {
-    #article-container .flink .flink-list:nth-of-type(1)>.flink-list-item {
-        width: calc(100% - 45px);
-    }
+	#article-container .flink .flink-list:nth-of-type(1) > .flink-list-item {
+		width: calc(100% - 45px);
+	}
 }
 
 @media screen and (max-width: 600px) {
-    #article-container .flink .flink-list:nth-of-type(1)>.flink-list-item {
-        width: calc(100% - 45px);
-    }
+	#article-container .flink .flink-list:nth-of-type(1) > .flink-list-item {
+		width: calc(100% - 45px);
+	}
 }
 
-#article-container .flink .flink-list>.flink-list-item {
-    width: calc(100%/2 - 45px);
+#article-container .flink .flink-list > .flink-list-item {
+	width: calc(100% / 2 - 45px);
 }
 
 @media screen and (max-width: 1024px) {
-    #article-container .flink .flink-list>.flink-list-item {
-        width: calc(100% - 45px) !important;
-    }
+	#article-container .flink .flink-list > .flink-list-item {
+		width: calc(100% - 45px) !important;
+	}
 }
 
 @media screen and (max-width: 600px) {
-    #article-container .flink .flink-list>.flink-list-item {
-        width: calc(100% - 45px) !important;
-    }
+	#article-container .flink .flink-list > .flink-list-item {
+		width: calc(100% - 45px) !important;
+	}
 }
 
-#article-container .flink .flink-list>.flink-list-item:hover img {
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
+#article-container .flink .flink-list > .flink-list-item:hover img {
+	transform: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
 }
 
-#article-container .flink .flink-list>.flink-list-item {
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -o-transform: none;
-    -ms-transform: none;
+#article-container .flink .flink-list > .flink-list-item {
+	transform: none;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
 }
 
-#article-container .flink .flink-list>.flink-list-item a .flink-item-name,
-#article-container .flink .flink-list>.flink-list-item a .flink-item-desc {
-    color: black;
-    transition: color 0.3s ease-out;
+#article-container .flink .flink-list > .flink-list-item a .flink-item-name,
+#article-container .flink .flink-list > .flink-list-item a .flink-item-desc {
+	color: black;
+	transition: color 0.3s ease-out;
 }
 
-#article-container .flink .flink-list>.flink-list-item:hover a .flink-item-name,
-#article-container .flink .flink-list>.flink-list-item:hover a .flink-item-desc {
-    color: white;
+#article-container
+	.flink
+	.flink-list
+	> .flink-list-item:hover
+	a
+	.flink-item-name,
+#article-container
+	.flink
+	.flink-list
+	> .flink-list-item:hover
+	a
+	.flink-item-desc {
+	color: white;
 }
 
-#article-container .flink .flink-list>.flink-list-item {
-    background: white;
-    transition: background-color 0.3s ease-out;
+#article-container .flink .flink-list > .flink-list-item {
+	background: white;
+	transition: background-color 0.3s ease-out;
 }
 
-#article-container .flink .flink-list>.flink-list-item:hover {
-    background: var(--btn-bg);
+#article-container .flink .flink-list > .flink-list-item:hover {
+	background: var(--btn-bg);
 }
-
-
-/* code blocks */
-
-td.code {
-    tab-size: 4;
-}
-
 
 /* quote block */
 
-blockquote>p {
-    font-family: "Noto Sans SC";
-    font-weight: normal;
-    font-style: normal;
+blockquote > p {
+	font-family: 'Noto Sans SC';
+	font-weight: normal;
+	font-style: normal;
 }
-
 
 /* font */
 
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: url('https://jsd.ayk.moe/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.woff2') format('woff2'), url('https://jsd.ayk.moe/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'JetBrains Mono';
+	src: url('https://jsd.ayk.moe/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.woff2')
+			format('woff2'),
+		url('https://jsd.ayk.moe/gh/KiritaniAyaka/Static/blog/font/JetBrainsMono-Regular.ttf')
+			format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
-#content-posts .recent-post-item {
-    height: 17rem;
+#recent-posts .recent-post-item {
+	height: 16em;
+}
+
+/* code blocks */
+
+td.code {
+	tab-size: 4;
+}
+
+#article-container code {
+	padding: 2px 6px;
+	margin: 0 2px;
+	background-color: rgba(35, 27, 30, 0.05);
+	color: #f466a4;
+	border-radius: 0.35rem;
+}
+
+/* custom code highlight */
+
+/* 新添加的內容
+  ------------------------------------- 
+  --hl-color                  代碼框字體顔色 【必須】 (把下面.hljs的 color複製到這裏來)
+  --hl-bg                     代碼框背景色 【必須】 (把下面.hljs的 background複製到這裏來)
+  --hltools-bg: #321a0f       代碼框頂部工具欄背景色 【可選】(如果你關掉了 copy、lang 和 shrink,可不用配置這個）
+  --hltools-color: #fff       代碼框頂部工具欄字體顔色 【可選】(如果你關掉了 copy、lang 和 shrink,可不用配置這個）
+  --hlnumber-bg: #221a0f      代碼框行數背景色 【可選】(如果已經關掉 line_number,可以不用配置這個)
+  --hlnumber-color: #fff      代碼框行數字體顔色 【可選】 (如果已經關掉 line_number,可以不用配置這個)
+  --hlscrollbar-bg: #d3af86   代碼框滾動條顔色 【可選】（默認為主題主顔色）
+  --hlexpand-bg: #d3af86      代碼框底部展開背景色 【可選】(如果已經關掉 highlight_height_limit,可以不用配置這個)
+*/
+
+:root {
+	--hl-color: #d3b486;
+	--hl-bg: rgb(252, 250, 252);
+	--hltools-bg: #e6ebf1;
+	--hltools-color: #90a4b2;
+	--hlnumber-bg: rgb(252, 250, 252);
+	--hlnumber-color: #90a4b2;
+	/* --hlscrollbar-bg: #d3af86; */
+	--hlexpand-bg: #d3af86;
+}
+
+.hljs-comment,
+.hljs-quote {
+	color: #d6baad;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
+	color: #dc3958;
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-deletion,
+.hljs-link,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-params {
+	color: #ff33b1;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-attr,
+.hljs-function {
+	color: #eb7448;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #4aac2f;
+}
+
+#article-container figure.highlight .hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	color: #917b89;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
 }
